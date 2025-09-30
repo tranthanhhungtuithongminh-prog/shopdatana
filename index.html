@@ -31,11 +31,12 @@
     }
 
     /* Responsive cho điện thoại */
-    @media (max-width) {
+    @media (max-width: 768px) {
     header {
       background: url("images/protoday.png") no-repeat center center;
       background-size: cover;      /* ảnh phủ hết vùng header */
-      background-position: cover; /* luôn ưu tiên phần giữa */
+      background-position: contain; /* luôn ưu tiên phần giữa */
+      height: 33vh; 
     }
     }
 
