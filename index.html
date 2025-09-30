@@ -10,12 +10,19 @@
       margin: 0;
       background: #f8f8f8;
     }
-    header {
+    /* header {
       background: #ff6b00;
       color: white;
       padding: 16px;
       text-align: center;
-    }
+    } */
+
+    header {
+      background: url("images/protoday.png") no-repeat center center;
+      background-size: cover;   /* ảnh phủ hết header */
+      height: 400px;            /* chỉnh chiều cao header tùy ý */
+   }
+
     .product-list {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -76,30 +83,360 @@
 <body>
 
   <header>
-    <h1>🛍️ Shop của Hưng</h1>
-    <p>Chuyên các sản phẩm chất lượng - Giá tốt</p>
+    <!-- <h1>🛍️ Shop của Hưng</h1>
+    <p>Chuyên các sản phẩm chất lượng - Giá tốt</p> -->
   </header>
+
 
   <div class="product-list">
     <div class="product">
-      <img src="https://picsum.photos/id/1010/300/200" alt="Sản phẩm 1">
-      <h3>Sản phẩm 1</h3>
-      <p>Mô tả ngắn sản phẩm 1</p>
-      <div class="price">120.000đ</div>
+      <img src="images/mit2.png" alt="Sản phẩm 1">
+      <h3>Mít Thái sấy thăng hoa</h3>
+      <p>Mít Thái sấy thăng hoa Đà Lạt giòn xốp, 
+        ngọt thanh, giữ trọn hương vị tự nhiên. 
+        Sản phẩm hoàn toàn không chất bảo quản, không phẩm màu, 
+        không tẩm ướp, an toàn và lành mạnh cho cả gia đình.</p>
+      <div class="price">59.500đ</div>
+    </div>
+        <div class="product">
+      <img src="images/mit5.png" alt="Sản phẩm 2">
+      <h3>Mít Thái sấy thăng hoa</h3>
+      <p>Mít Thái sấy thăng hoa Đà Lạt giòn xốp, 
+        ngọt thanh, giữ trọn hương vị tự nhiên. 
+        Sản phẩm hoàn toàn không chất bảo quản, không phẩm màu, 
+        không tẩm ướp, an toàn và lành mạnh cho cả gia đình.</p>
+      <div class="price">115.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/xoai2.png" alt="Sản phẩm 3">
+      <h3>Xoài sấy dẻo</h3>
+      <p>Xoài sấy dẻo Đà Lạt được chọn từ những trái xoài chín mọng, 
+        dẻo mềm và giữ trọn vị ngọt tự nhiên. Sản phẩm không chất bảo quản, 
+        không phẩm màu, không tẩm ướp, mang đến món ăn vặt an toàn, lành mạnh 
+        và giàu dinh dưỡng.</p>
+      <div class="price">80.000đ</div>
     </div>
     <div class="product">
-      <img src="https://picsum.photos/id/1025/300/200" alt="Sản phẩm 2">
-      <h3>Sản phẩm 2</h3>
-      <p>Mô tả ngắn sản phẩm 2</p>
-      <div class="price">250.000đ</div>
+      <img src="images/xoai5.png" alt="Sản phẩm 4">
+      <h3>Xoài sấy dẻo</h3>
+      <p>Xoài sấy dẻo Đà Lạt được chọn từ những trái xoài chín mọng, 
+        dẻo mềm và giữ trọn vị ngọt tự nhiên. Sản phẩm không chất bảo quản, 
+        không phẩm màu, không tẩm ướp, mang đến món ăn vặt an toàn, lành mạnh 
+        và giàu dinh dưỡng.</p>
+      <div class="price">150.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/timcong2.png" alt="Sản phẩm 5">
+      <h3>Khoai lang tím sấy cọng</h3>
+      <p>Khoai lang tím cọng nguyên vị được chế biến từ những củ khoai lang tím tuyển chọn, 
+        giòn rụm tự nhiên và giữ trọn hương vị ngọt bùi đặc trưng. 
+        Sản phẩm không chất bảo quản, không phẩm màu, không tẩm ướp, 
+        là món ăn vặt an toàn và lành mạnh cho mọi lứa tuổi.</p>
+      <div class="price">52.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/timcong5.png" alt="Sản phẩm 6">
+      <h3>Khoai lang tím sấy cọng</h3>
+      <p>Khoai lang tím cọng nguyên vị được chế biến từ những củ khoai lang tím tuyển chọn, 
+        giòn rụm tự nhiên và giữ trọn hương vị ngọt bùi đặc trưng. 
+        Sản phẩm không chất bảo quản, không phẩm màu, không tẩm ướp, 
+        là món ăn vặt an toàn và lành mạnh cho mọi lứa tuổi.</p>
+      <div class="price">99.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/khoaitayrongbien2.png" alt="Sản phẩm 7">
+      <h3>Khoai tây rong biển</h3>
+      <p>Khoai tây rong biển giòn rụm, thơm bùi tự nhiên, kết hợp hài hòa giữa vị 
+        khoai tây vàng ươm và rong biển đậm đà. Sản phẩm được chế biến an toàn, 
+        không chất bảo quản, không phẩm màu, mang đến món ăn vặt lạ miệng, giàu dinh dưỡng 
+        và phù hợp cho cả gia đình.</p>
+      <div class="price">82.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/khoaitayrongbien5.png" alt="Sản phẩm 8">
+      <h3>Khoai tây rong biển</h3>
+      <p>Khoai tây rong biển giòn rụm, thơm bùi tự nhiên, kết hợp hài hòa giữa vị 
+        khoai tây vàng ươm và rong biển đậm đà. Sản phẩm được chế biến an toàn, 
+        không chất bảo quản, không phẩm màu, mang đến món ăn vặt lạ miệng, giàu dinh dưỡng 
+        và phù hợp cho cả gia đình.</p>
+      <div class="price">105.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/thapcam2.png" alt="Sản phẩm 9">
+      <h3>Thập cẩm sấy thăng hoa</h3>
+      <p>Thập cẩm sấy thăng hoa xuất khẩu gồm đậu bắp, chuối, khoai lang tím, khoai lang vàng… 
+        giữ nguyên vị giòn ngon và dinh dưỡng tự nhiên. Sản phẩm không chất bảo quản, 
+        không phẩm màu, không tẩm ướp, an toàn và lành mạnh cho mọi lứa tuổi.</p>
+      <div class="price">79.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/thapcam5.png" alt="Sản phẩm 10">
+      <h3>Thập cẩm sấy thăng hoa</h3>
+      <p>Thập cẩm sấy thăng hoa xuất khẩu gồm đậu bắp, chuối, khoai lang tím, khoai lang vàng… 
+        giữ nguyên vị giòn ngon và dinh dưỡng tự nhiên. Sản phẩm không chất bảo quản, 
+        không phẩm màu, không tẩm ướp, an toàn và lành mạnh cho mọi lứa tuổi.</p>
+      <div class="price">153.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/xoaideomuoiot2.png" alt="Sản phẩm 11">
+      <h3>Xoài dẻo muối ớt</h3>
+      <p>Xoài dẻo muối ớt được làm từ những lát xoài chín dẻo thơm, 
+        kết hợp vị chua ngọt tự nhiên và chút cay mặn hài hòa. 
+        Sản phẩm không chất bảo quản, không phẩm màu, mang đến món ăn vặt độc đáo, 
+        kích thích vị giác và phù hợp cho mọi cuộc vui.</p>
+      <div class="price">82.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/xoaideomuoiot5.png" alt="Sản phẩm 12">
+      <h3>Xoài dẻo muối ớt</h3>
+      <p>Xoài dẻo muối ớt được làm từ những lát xoài chín dẻo thơm, 
+        kết hợp vị chua ngọt tự nhiên và chút cay mặn hài hòa. 
+        Sản phẩm không chất bảo quản, không phẩm màu, mang đến món ăn vặt độc đáo, 
+        kích thích vị giác và phù hợp cho mọi cuộc vui.</p>
+      <div class="price">155.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/khoaimonconghanh2.png" alt="Sản phẩm 13">
+      <h3>Khoai môn cọng hành</h3>
+      <p>Khoai môn cọng hành giòn rụm, thơm bùi tự nhiên từ khoai môn kết hợp vị mặn mà của hành sấy. 
+        Sản phẩm không chất bảo quản, không phẩm màu,, mang đến món ăn vặt lạ miệng, 
+        an toàn và giàu dinh dưỡng.</p>
+      <div class="price">75.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/khoaimonconghanh5.png" alt="Sản phẩm 14">
+      <h3>Khoai môn cọng hành</h3>
+      <p>Khoai môn cọng hành giòn rụm, thơm bùi tự nhiên từ khoai môn kết hợp vị mặn mà của hành sấy. 
+        Sản phẩm không chất bảo quản, không phẩm màu,, mang đến món ăn vặt lạ miệng, 
+        an toàn và giàu dinh dưỡng.</p>
+      <div class="price">145.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/khoaimix2.png" alt="Sản phẩm 15">
+      <h3>Khoai mix 3 loại</h3>
+      <p>Khoai mix 3 loại từ khoai lang vàng, khoai lang tím và khoai môn Đà Lạt, 
+        mang hương vị ngọt bùi tự nhiên của vùng cao nguyên. Sản phẩm sấy giòn, 
+        giữ trọn dinh dưỡng, không phẩm màu, không chất bảo quản, 
+        an toàn và tinh tế trong từng miếng.</p>
+      <div class="price">57.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/khoaimix5.png" alt="Sản phẩm 16">
+      <h3>Khoai mix 3 loại</h3>
+      <p>Khoai mix 3 loại từ khoai lang vàng, khoai lang tím và khoai môn Đà Lạt, 
+        mang hương vị ngọt bùi tự nhiên của vùng cao nguyên. Sản phẩm sấy giòn, 
+        giữ trọn dinh dưỡng, không phẩm màu, không chất bảo quản, 
+        an toàn và tinh tế trong từng miếng.</p>
+      <div class="price">109.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/banana2.png" alt="Sản phẩm 17">
+      <h3>Chuối sứ sấy nguyên vị</h3>
+      <p>Chuối sứ sấy nguyên vị được làm từ những trái chuối sứ chín cây, 
+        thơm dẻo tự nhiên và giữ trọn vị ngọt đặc trưng. Sản phẩm không phẩm màu, 
+        không chất bảo quản, không tẩm ướp, là món ăn vặt an toàn, lành mạnh và giàu năng lượng.</p>
+      <div class="price">37.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/banana5.png" alt="Sản phẩm 18">
+      <h3>Chuối sứ sấy nguyên vị</h3>
+      <p>Chuối sứ sấy nguyên vị được làm từ những trái chuối sứ chín cây, 
+        thơm dẻo tự nhiên và giữ trọn vị ngọt đặc trưng. Sản phẩm không phẩm màu, 
+        không chất bảo quản, không tẩm ướp, là món ăn vặt an toàn, lành mạnh và giàu năng lượng.</p>
+      <div class="price">69.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/mushroom2.png" alt="Sản phẩm 19">
+      <h3>Nấm Donko nguyên vị</h3>
+      <p>Nấm Donko nguyên vị từ vùng nguyên liệu Lạc Dương, 
+        nơi khí hậu trong lành tạo nên nấm dày thịt, hương thơm tự nhiên. 
+        Được sấy giữ trọn dinh dưỡng, không phẩm màu, không chất bảo quản, 
+        đây là đặc sản cao cấp, tinh tế cho bữa ăn và quà biếu.</p>
+      <div class="price">118.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/mushroom5.png" alt="Sản phẩm 20">
+      <h3>Nấm Donko nguyên vị</h3>
+      <p>Nấm Donko nguyên vị từ vùng nguyên liệu Lạc Dương, 
+        nơi khí hậu trong lành tạo nên nấm dày thịt, hương thơm tự nhiên. 
+        Được sấy giữ trọn dinh dưỡng, không phẩm màu, không chất bảo quản, 
+        đây là đặc sản cao cấp, tinh tế cho bữa ăn và quà biếu.</p>
+      <div class="price">229.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/strawberry2.png" alt="Sản phẩm 21">
+      <h3>Dâu tây sấy Đà Lạt</h3>
+      <p>Dâu tây Đà Lạt được thu hoạch từ vùng nguyên liệu đặc trưng của cao nguyên, 
+        nơi khí hậu mát lành tạo nên trái dâu đỏ mọng, vị chua ngọt hài hòa. 
+        Sản phẩm được sấy giữ nguyên màu sắc và dinh dưỡng, không phẩm màu, 
+        không chất bảo quản, là món ăn vặt tự nhiên, an toàn và tinh tế.</p>
+      <div class="price">157.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/strawberry5.png" alt="Sản phẩm 22">
+      <h3>Dâu tây sấy Đà Lạt</h3>
+      <p>Dâu tây Đà Lạt được thu hoạch từ vùng nguyên liệu đặc trưng của cao nguyên, 
+        nơi khí hậu mát lành tạo nên trái dâu đỏ mọng, vị chua ngọt hài hòa. 
+        Sản phẩm được sấy giữ nguyên màu sắc và dinh dưỡng, không phẩm màu, 
+        không chất bảo quản, là món ăn vặt tự nhiên, an toàn và tinh tế.</p>
+      <div class="price">350.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/yogurt2.png" alt="Sản phẩm 23">
+      <h3>Sữa chua sấy Đà Lạt</h3>
+      <p>Sữa chua sấy Đà Lạt – món ăn vặt mới lạ, chua ngọt hài hòa, giòn tan béo thơm. 
+        Sản phẩm giữ nguyên hương vị tự nhiên, không phẩm màu, không chất bảo quản, 
+        mang đến trải nghiệm thú vị cho mọi lứa tuổi.</p>
+      <div class="price">105.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/yogurt5.png" alt="Sản phẩm 24">
+      <h3>Sữa chua sấy Đà Lạt</h3>
+      <p>Sữa chua sấy Đà Lạt – món ăn vặt mới lạ, chua ngọt hài hòa, giòn tan béo thơm. 
+        Sản phẩm giữ nguyên hương vị tự nhiên, không phẩm màu, không chất bảo quản, 
+        mang đến trải nghiệm thú vị cho mọi lứa tuổi.</p>
+      <div class="price">205.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/fruitmix2.png" alt="Sản phẩm 25">
+      <h3>Trái cây sấy mix vị</h3>
+      <p>Trái cây mix vị sấy thăng hoa kết hợp nhiều loại trái cây tươi ngon từ Đà Lạt, 
+        giữ nguyên màu sắc và hương vị tự nhiên. Nhờ công nghệ sấy hiện đại, sản phẩm giòn xốp, 
+        thơm ngọt hài hòa, không phẩm màu, không chất bảo quản, 
+        mang đến trải nghiệm ăn vặt đa dạng và hấp dẫn.</p>
+      <div class="price">125.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/fruitmix5.png" alt="Sản phẩm 26">
+      <h3>Trái cây sấy mix vị</h3>
+      <p>Trái cây mix vị sấy thăng hoa kết hợp nhiều loại trái cây tươi ngon từ Đà Lạt, 
+        giữ nguyên màu sắc và hương vị tự nhiên. Nhờ công nghệ sấy hiện đại, sản phẩm giòn xốp, 
+        thơm ngọt hài hòa, không phẩm màu, không chất bảo quản, 
+        mang đến trải nghiệm ăn vặt đa dạng và hấp dẫn.</p>
+      <div class="price">245.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/kiwi2.png" alt="Sản phẩm 27">
+      <h3>Kiwi Zespri sấy thăng hoa</h3>
+      <p>Kiwi Zespri sấy thăng hoa nguyên vị được làm từ những trái kiwi Zespri tuyển chọn, 
+        chua ngọt hài hòa và giữ trọn hương vị tươi ngon. Sản phẩm không phẩm màu, 
+        không chất bảo quản, giòn xốp lạ miệng, thích hợp làm món ăn vặt cao cấp hoặc quà biếu tinh tế.</p>
+      <div class="price">113.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/kiwi5.png" alt="Sản phẩm 28">
+      <h3>Kiwi Zespri sấy thăng hoa</h3>
+      <p>Kiwi Zespri sấy thăng hoa nguyên vị được làm từ những trái kiwi Zespri tuyển chọn, 
+        chua ngọt hài hòa và giữ trọn hương vị tươi ngon. Sản phẩm không phẩm màu, 
+        không chất bảo quản, giòn xốp lạ miệng, thích hợp làm món ăn vặt cao cấp hoặc quà biếu tinh tế.</p>
+      <div class="price">211.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/nui2.png" alt="Sản phẩm 29">
+      <h3>Nui sấy khô bò</h3>
+      <p>Nui sấy mix bò giòn rụm lạ miệng, hòa quyện vị bùi béo của nui và đậm đà từ thịt bò. 
+        Sản phẩm không phẩm màu, không chất bảo quản, tiện lợi cho những bữa ăn nhẹ hay món ăn vặt hấp dẫn.</p>
+      <div class="price">44.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/nui5.png" alt="Sản phẩm 30">
+      <h3>Nui sấy khô bò</h3>
+      <p>Nui sấy mix bò giòn rụm lạ miệng, hòa quyện vị bùi béo của nui và đậm đà từ thịt bò. 
+        Sản phẩm không phẩm màu, không chất bảo quản, tiện lợi cho những bữa ăn nhẹ hay món ăn vặt hấp dẫn.</p>
+      <div class="price">72.000đ</div>
+    </div>
+    
+    <div class="product">
+      <img src="images/khoailangmat2.png" alt="Sản phẩm 31">
+      <h3>Khoai lang vàng lát mật</h3>
+      <p>Khoai lang vàng lát mật được làm từ những củ khoai lang vàng ngọt bùi, 
+        lát đều và sấy giòn giữ trọn hương vị tự nhiên. Sản phẩm không phẩm màu, 
+        không chất bảo quản, không tẩm ướp, là món ăn vặt dân dã nhưng hấp dẫn, 
+        phù hợp cho mọi lứa tuổi.</p>
+      <div class="price">37.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/khoailangmat2.png" alt="Sản phẩm 32">
+      <h3>Khoai lang vàng lát mật</h3>
+      <p>Khoai lang vàng lát mật được làm từ những củ khoai lang vàng ngọt bùi, 
+        lát đều và sấy giòn giữ trọn hương vị tự nhiên. Sản phẩm không phẩm màu, 
+        không chất bảo quản, không tẩm ướp, là món ăn vặt dân dã nhưng hấp dẫn, 
+        phù hợp cho mọi lứa tuổi.</p>
+      <div class="price">69.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/bap2.png" alt="Sản phẩm 33">
+      <h3>Bắp sấy khô bò</h3>
+      <p>Bắp sấy mix khô bò giòn ngọt tự nhiên từ hạt bắp kết hợp vị đậm đà cay nhẹ của khô bò, 
+        tạo nên hương vị hấp dẫn khó cưỡng. Sản phẩm không phẩm màu, không chất bảo quản, 
+        tiện lợi cho ăn vặt hay nhâm nhi cùng bạn bè.</p>
+      <div class="price">50.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/bap5.png" alt="Sản phẩm 34">
+      <h3>Bắp sấy khô bò</h3>
+      <p>Bắp sấy mix khô bò giòn ngọt tự nhiên từ hạt bắp kết hợp vị đậm đà cay nhẹ của khô bò, 
+        tạo nên hương vị hấp dẫn khó cưỡng. Sản phẩm không phẩm màu, không chất bảo quản, 
+        tiện lợi cho ăn vặt hay nhâm nhi cùng bạn bè.</p>
+      <div class="price">95.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/khoailangtim2.png" alt="Sản phẩm 35">
+      <h3>Khoai lang tím sấy</h3>
+      <p>Khoai lang tím Đà Lạt sấy mật ong được làm từ khoai lang tím dẻo bùi kết hợp 
+        vị ngọt thanh tự nhiên của mật ong. Sản phẩm không phẩm màu, không chất bảo quản, 
+        giòn ngon lạ miệng và mang đậm hương vị đặc sản Đà Lạt.</p>
+      <div class="price">37.000đ</div>
+    </div>
+        <div class="product">
+      <img src="images/khoailangtim5.png" alt="Sản phẩm 36">
+      <h3>Khoai lang tím sấy</h3>
+      <p>Khoai lang tím Đà Lạt sấy mật ong được làm từ khoai lang tím dẻo bùi kết hợp 
+        vị ngọt thanh tự nhiên của mật ong. Sản phẩm không phẩm màu, không chất bảo quản, 
+        giòn ngon lạ miệng và mang đậm hương vị đặc sản Đà Lạt.</p>
+      <div class="price">69.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/khoaimonmamhanh2.png" alt="Sản phẩm 37">
+      <h3>Khoai môn lát sấy mắm hành</h3>
+      <p>Khoai môn lát sấy mắm hành giòn bùi tự nhiên, quyện cùng vị mặn mà của mắm và thơm nồng của hành sấy. 
+        Sản phẩm không phẩm màu, không chất bảo quản, mang đến món ăn vặt đậm đà, lạ miệng và khó quên.</p>
+      <div class="price">84.000đ</div>
     </div>
     <div class="product">
-      <img src="https://picsum.photos/id/1035/300/200" alt="Sản phẩm 3">
-      <h3>Sản phẩm 3</h3>
-      <p>Mô tả ngắn sản phẩm 3</p>
+      <img src="images/khoaimonmamhanh2.png" alt="Sản phẩm 38">
+      <h3>Khoai môn lát sấy mắm hành</h3>
+      <p>Khoai môn lát sấy mắm hành giòn bùi tự nhiên, quyện cùng vị mặn mà của mắm và thơm nồng của hành sấy. 
+        Sản phẩm không phẩm màu, không chất bảo quản, mang đến món ăn vặt đậm đà, lạ miệng và khó quên.</p>
+      <div class="price">163.000đ</div>
+    </div>
+
+    <div class="product">
+      <img src="images/traactiso.png" alt="Sản phẩm 39">
+      <h3>Trà túi lọc Actiso</h3>
+      <p>Thực phẩm bảo vệ sức khỏe Ladophar Trà túi lọc Actiso hỗ trợ tăng cường chức năng gan, lợi mật (Gói 100 túi x 2g)</p>
       <div class="price">89.000đ</div>
     </div>
-  </div>
+
+
+  <!-- </div>
 
   <div class="chat-buttons">
     <a href="https://m.me/ten_facebook_cua_hung" target="_blank">💬 Chat Facebook</a>
@@ -107,4 +444,26 @@
   </div>
 
 </body>
+</html> -->
+
+  </div>
+
+  <div class="chat-buttons">
+    <!-- Nút chat Facebook Messenger -->
+    <a 
+        href="https://m.me/qing.xing.409542" 
+        target="_blank">
+        💬 Chat Facebook
+    </a>
+
+    <!-- Nút chat Zalo -->
+    <a 
+        href="https://zalo.me/0389450803" 
+        target="_blank" 
+        class="zalo">
+        💬 Chat Zalo
+    </a>
+   </div>
+</body>
 </html>
+
