@@ -23,28 +23,22 @@
       /* height: 400px;            chỉnh chiều cao header tùy ý */
    /* } */ 
     
-
-   
     header {
-    width: 100%;
-    overflow: hidden;   /* ẩn phần thừa nếu có */
+      background: url("images/protoday.png") no-repeat center center;
+      background-size: cover;      /* ảnh phủ hết vùng header */
+      background-position: center; /* luôn ưu tiên phần giữa */
+      height: 40vh;                /* desktop: cao 40% màn hình */
     }
 
-    .header-img {
-    width: 100%;
-    height: auto;       /* giữ nguyên tỷ lệ ảnh */
-    object-fit: contain;
-    }
-
-    /* Mobile */
-    @media (max-width: 768px) {
-    .header-img {
-        width: 100% center;
-        height: auto;       /* giữ nguyên tỷ lệ ảnh */
-        object-fit: contain;
+    /* Responsive cho điện thoại */
+    @media (max-width) {
+    header {
+      background: url("images/protoday.png") no-repeat center center;
+      max-width: 100%;
+      background-size: auto;      /* ảnh phủ hết vùng header */
+      background-position: auto; /* luôn ưu tiên phần giữa */
     }
     }
-
 
 
     .product-list {
@@ -107,7 +101,8 @@
 <body>
 
   <header>
-     <img src="images/protoday.png" alt="Header Logo" class="header-img">
+    <!-- <h1>🛍️ Shop của Hưng</h1>
+    <p>Chuyên các sản phẩm chất lượng - Giá tốt</p> -->
   </header>
 
 
